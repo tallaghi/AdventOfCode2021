@@ -1,5 +1,5 @@
 import Util.inputReader as reader
-import Days.day2
+import Days.day3
  
-input = reader.readFileSingleLine("Day2")
-Days.day2.runDay2(input)
+input = reader.readFileSingleLine("Day3")
+Days.day3.runDay3(input)
