@@ -1,4 +1,4 @@
-def runDay2(input):
+def runDay(input):
 
     print("Part 1")
     horiz,vert,depth = loop(input,1)

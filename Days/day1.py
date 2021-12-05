@@ -1,4 +1,4 @@
-def runDay1(input):
+def runDay(input):
     
     print("Part 1")
     increases = 0

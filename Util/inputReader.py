@@ -4,6 +4,7 @@ def readFileSingleLine(day):
         lines = my_file.readlines()
     return lines
 
+#Only Day 4 right now
 def readByChunk(day):     
     lines = []   
     with open(f"FlatFiles/{day}.txt","r") as my_file:

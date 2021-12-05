@@ -1,7 +1,7 @@
 import math
 boardSize=5
 boardWon=[]
-def runDay4(input):
+def runDay(input):
     wins=0
     numbers=input[0].split(',')
     input.pop(0)

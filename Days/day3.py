@@ -1,4 +1,4 @@
-def runDay3(input):
+def runDay(input):
     gammaDec,epsilonDec=part1(input)
 
     print("Part 1")

@@ -1,5 +1,5 @@
 import Util.inputReader as reader
-from Days import day4 as day
+from Days import day5 as day
  
-input = reader.readByChunk("Day4")
-day.runDay4(input)
+input = reader.readFileSingleLine("Day5")
+day.runDay(input)
