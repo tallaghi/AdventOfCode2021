@@ -18,10 +18,6 @@ def runDay(input):
         foldDir=fold[0]
         foldNum=int(fold[2:])
         for coord in coordList:
-            if foldDir=='x' and coord[0]==foldNum:
-                print(coord)
-            if foldDir=='y' and coord[1]==foldNum:
-                print(coord)
             if foldDir=='x' and coord[0]>foldNum:
                 newCoordList.append((2*foldNum-coord[0],coord[1]))
             elif foldDir=='y' and coord[1]>foldNum:
